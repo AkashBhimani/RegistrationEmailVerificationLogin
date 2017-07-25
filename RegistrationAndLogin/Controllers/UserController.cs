@@ -178,7 +178,7 @@ namespace RegistrationAndLogin.Controllers
 
             var fromEmail = new MailAddress("elazharimohamed91@gmail.com", "Dotnet Awesome");
             var toEmail = new MailAddress(emailID);
-            var fromEmailPassword = "iloveusa"; // Replace with actual password
+            var fromEmailPassword = "*****"; // Replace with actual password
             string subject = "Your account is successfully created!";
 
             string body = "<br/><br/>We are excited to tell you that your Dotnet Awesome account is" + 
